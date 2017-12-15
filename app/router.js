@@ -7,6 +7,7 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('files', { path: '/files/:file_path' });
 });
 
 export default Router;
